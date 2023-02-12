@@ -13,7 +13,7 @@ password = "vtkqrltqtpcvxdkz"
 
 def checkConstraints(numberOfVideos, audioDuration):
     flag = 0
-    if int(numberOfVideos)>=1:
+    if int(numberOfVideos)>=10:
         flag=1
     else:
         print('Number of videos should be any positive number greater than or equal to 10!')
